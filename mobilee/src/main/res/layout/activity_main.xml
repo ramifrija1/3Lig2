@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Nom"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:background="@drawable/edittext_background"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Prenom"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Adresse mail"
+        android:inputType="textWebEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/motdepasse"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/location"
+        android:background="@drawable/edittext_background"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Location"
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/experience"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_background"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Experience"
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/domaine"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_background"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Domaine"
+        android:padding="10dp" />
+    <Button
+        android:id="@+id/sign"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Sign up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/goToLoginactivity"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/teal_700"
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
